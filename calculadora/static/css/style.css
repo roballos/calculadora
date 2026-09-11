@@ -179,3 +179,61 @@ label {
     font: inherit;
     color: #fff;
 }
+
+.form-result-page {
+    background: #f3f8ee;
+}
+
+.form-result-header {
+    background-color: #cce59d;
+    padding: 90px 30px;
+    margin-bottom: 0;
+}
+
+.form-result-header__text {
+    max-width: 620px;
+}
+
+.form-result-header__text h1 {
+    color: #174d3c;
+    line-height: 1.2;
+}
+
+.form-result-main {
+    display: flex;
+    justify-content: center;
+    padding: 60px 30px 100px;
+}
+
+.result-card {
+    width: min(100%, 620px);
+    padding: 40px;
+    border: 1px solid #b9d99a;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(39, 70, 45, 0.12);
+}
+
+.result-card h2 {
+    margin-bottom: 30px;
+    color: #174d3c;
+}
+
+.result-card p {
+    padding: 14px 0;
+    border-bottom: 1px solid #e5efdf;
+}
+
+.result-card__link {
+    display: inline-block;
+    margin-top: 28px;
+    padding: 14px 22px;
+    border-radius: 8px;
+    background: #0eb07c;
+    color: #fff;
+    text-decoration: none;
+}
+
+.result-card__link:hover {
+    background: #0a8d63;
+}

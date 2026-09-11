@@ -23,22 +23,22 @@
     <ul class="list" id="list">
       <!-- Assignment #3 -->
       <li class="list__item">
-        <a href="{{ size ~ '/' ~ lights ~ '/' ~ '3' }}">
+        <a href="{{ url_for('end', size=size, lights=lights, device='3') }}">
           <img class="item__img" src="/static/img/battery.svg" alt="battery">
           <span>3-5 aparelhos</span></a>
       </li>
       <li class="list__item">
-        <a href="{{ size ~ '/' ~ lights ~ '/' ~ '6' }}">
+        <a href="{{ url_for('end', size=size, lights=lights, device='6') }}">
           <img class="item__img" src="/static/img/battery.svg" alt="battery">
           <span>6-8 aparelhos</span></a>
       </li>
       <li class="list__item">
-        <a href="{{ size ~ '/' ~ lights ~ '/' ~ '10' }}">
+        <a href="{{ url_for('end', size=size, lights=lights, device='10') }}">
           <img class="item__img" src="/static/img/battery.svg" alt="battery">
           <span>10+ aparelhos</span></a>
       </li>
       <li class="list__item list__item--eco">
-        <a href="{{ lights ~ '/10' }}">
+        <a href="{{ url_for('form') }}">
           <img class="item__img" src="/static/img/battery.svg" alt="battery">
           <span>Nossa construção ecológica!</span></a>
       </li>
